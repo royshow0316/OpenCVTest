@@ -1,0 +1,64 @@
+
+{
+	"buildFiles" : [ "/Users/Roy/android/OpenCVTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/Roy/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/Roy/android/OpenCVTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/Roy/android/OpenCVTest/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "8592916961839438482"
+		},
+		"opencv_java3-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_java3-lib",
+			"buildType" : "release",
+			"output" : "/Users/Roy/android/OpenCVTest/app/src/main/jniLibs/arm64-v8a/libopencv_java3.so",
+			"toolchain" : "8592916961839438482"
+		},
+		"testMessage-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "testMessage",
+			"buildCommand" : "/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/release/arm64-v8a --target testMessage",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/Roy/Library/Android/sdk/ndk-bundle/sysroot  -DtestMessage_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/Roy/android/OpenCVTest/app/src/main/cpp/testMessage.cpp",
+					"workingDirectory" : "/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/Roy/android/OpenCVTest/app/build/intermediates/cmake/release/obj/arm64-v8a/libtestMessage.so",
+			"toolchain" : "8592916961839438482"
+		}
+	},
+	"toolchains" : 
+	{
+		"8592916961839438482" : 
+		{
+			"cCompilerExecutable" : "/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

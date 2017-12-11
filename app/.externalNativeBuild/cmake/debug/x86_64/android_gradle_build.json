@@ -1,0 +1,82 @@
+
+{
+	"buildFiles" : [ "/Users/Roy/android/OpenCVTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"imgCanny-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "imgCanny",
+			"buildCommand" : "/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64 --target imgCanny",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/Roy/Library/Android/sdk/ndk-bundle/sysroot  -DimgCanny_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/Roy/android/OpenCVTest/app/src/main/cpp/imgCanny.cpp",
+					"workingDirectory" : "/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/Roy/android/OpenCVTest/app/build/intermediates/cmake/debug/obj/x86_64/libimgCanny.so",
+			"toolchain" : "8592916961839438482"
+		},
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/Roy/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/Roy/android/OpenCVTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/Roy/android/OpenCVTest/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "8592916961839438482"
+		},
+		"opencv_java3-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_java3-lib",
+			"buildType" : "debug",
+			"output" : "/Users/Roy/android/OpenCVTest/app/src/main/jniLibs/x86_64/libopencv_java3.so",
+			"toolchain" : "8592916961839438482"
+		},
+		"testMessage-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "testMessage",
+			"buildCommand" : "/Users/Roy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64 --target testMessage",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/Roy/Library/Android/sdk/ndk-bundle/sysroot  -DtestMessage_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/Roy/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/Roy/android/OpenCVTest/app/src/main/cpp/testMessage.cpp",
+					"workingDirectory" : "/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/Roy/android/OpenCVTest/app/build/intermediates/cmake/debug/obj/x86_64/libtestMessage.so",
+			"toolchain" : "8592916961839438482"
+		}
+	},
+	"toolchains" : 
+	{
+		"8592916961839438482" : 
+		{
+			"cCompilerExecutable" : "/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/Roy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

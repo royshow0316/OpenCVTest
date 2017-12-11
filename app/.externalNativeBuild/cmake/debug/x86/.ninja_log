@@ -1,0 +1,7 @@
+# ninja log v5
+1	1280	0	CMakeFiles/testMessage.dir/src/main/cpp/testMessage.cpp.o	a28a5f404a0198b2
+1281	1572	0	../../../../build/intermediates/cmake/debug/obj/x86/libtestMessage.so	ca25ae5f9a19a9de
+0	564	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	2a1783ed4190b779
+565	653	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	b4413f04ff2dfc14
+1	6965	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	877c840386978e8a
+6970	7394	0	../../../../build/intermediates/cmake/debug/obj/x86/libimgCanny.so	1303ad16ca99ecc3

@@ -1,0 +1,5 @@
+/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/imgCanny.dir
+/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/testMessage.dir
+/Users/Roy/android/OpenCVTest/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir

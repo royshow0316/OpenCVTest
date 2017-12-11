@@ -1,0 +1,21 @@
+# ninja log v5
+1	2109	0	CMakeFiles/testMessage.dir/src/main/cpp/testMessage.cpp.o	fc1ffc5922b2afcf
+2110	2700	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libtestMessage.so	b988ae4be4adf8c6
+0	479	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	622fe81a1cb2239e
+479	591	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	f8564c5135f17628
+1	4125	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+4127	4526	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+3	4025	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+4025	4534	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+4	4776	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+4776	4970	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+2	2940	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+2940	3096	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+4	3537	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+3537	3692	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+2	4482	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+4483	4843	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+3	2207	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+2207	2364	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
+3	2344	0	CMakeFiles/imgCanny.dir/src/main/cpp/imgCanny.cpp.o	1be3940eb7ae7472
+2344	2605	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libimgCanny.so	6e97978133f23a1b
